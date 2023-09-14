@@ -1,0 +1,104 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.card {
+  background-color: #150b3e;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-size: cover;
+  padding: 20px;
+  font-family: 'Roboto';
+  max-width: 400px;
+}
+@media screen and (min-width: 768px) {
+  .card {
+    margin: 50px;
+    max-width: 500px;
+  }
+}
+
+.s-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+.s {
+  background-color: #c7d2fe;
+  padding: 15px;
+  height: 7%;
+  width: 19%;
+  text-align: center;
+  color: #7c3aed;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+@media screen and (min-width: 768px) {
+  .s {
+    height: 8%;
+    width: 20%;
+  }
+}
+.name {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+.rupees-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.para2 {
+  color: #585076;
+  font-size: 17px;
+  font-weight: bold;
+}
+.amount-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.amount {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+.in-rupees {
+  color: #585076;
+  font-size: 10px;
+  font-weight: bold;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
